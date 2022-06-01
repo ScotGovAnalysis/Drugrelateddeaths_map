@@ -60,7 +60,7 @@ SIMD_byLA <- read_csv("C:/Users/u449921/Documents/Drugsmap/SIMD/SIMD_byLA.csv") 
 ###########################
 ###########################
 
-STEP 3: MAPPIN'
+#STEP 3: MAPPIN'
 
 ##mapping DRDs
 DRDs<- left_join(LA_map, crude_rates, by="local_auth") %>% 
